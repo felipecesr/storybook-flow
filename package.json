@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token bctmq63skwi"
   },
   "keywords": [],
   "author": "Felipe Cesar <felipecesr@gmail.com>",
@@ -18,6 +19,7 @@
     "@storybook/addon-links": "^6.0.26",
     "@storybook/react": "^6.0.26",
     "babel-loader": "^8.1.0",
+    "chromatic": "^5.2.0",
     "react-is": "^16.13.1"
   },
   "dependencies": {}
