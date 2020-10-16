@@ -2,11 +2,7 @@
 # name of our action
 name: 'Chromatic Deployment'
 # the event that will trigger the action
-on:
-  push:
-    branches: [master]
-  pull_request:
-    branches: [master]
+on: [pull_request]
 
 # what the action will do
 jobs:
