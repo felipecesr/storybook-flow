@@ -8,7 +8,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "chromatic": "npx chromatic --project-token bctmq63skwi",
-    "build": "npm run chromatic"
+    "build": "npx chromatic --project-token=bctmq63skwi"
   },
   "keywords": [],
   "author": "Felipe Cesar <felipecesr@gmail.com>",
