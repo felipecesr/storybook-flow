@@ -6,9 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "chromatic": "npx chromatic --project-token bctmq63skwi",
-    "build": "npx chromatic --project-token=bctmq63skwi"
+    "build-storybook": "build-storybook"
   },
   "keywords": [],
   "author": "Felipe Cesar <felipecesr@gmail.com>",
