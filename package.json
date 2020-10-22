@@ -21,5 +21,9 @@
     "chromatic": "^5.2.0",
     "react-is": "^16.13.1"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "volta": {
+    "node": "12.19.0",
+    "yarn": "1.22.10"
+  }
 }
